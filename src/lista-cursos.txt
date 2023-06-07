@@ -1,0 +1,4 @@
+Olá, pessoal! Sem enrolação, vamos direto ao ponto. 
+Tenho um arquivo e nele salvei os cursos que já gravei até hoje. 
+Então tenho um arquivo com uma lista de cursos e preciso, utilizando PHP, ler essa lista de cursos para apresentar em uma página da Web, 
+para salvar no banco de dados. Não importa, a questão é que preciso ler esse arquivo.

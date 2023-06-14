@@ -13,4 +13,4 @@ echo file_get_contents(
      $contexto
 ); //o 'zip://' é o wraper(protocolo) do php que vamos utilizar; dentro do arquivo zipado, vamos ler o arquivo lista-cursos
 
-fopen('arquivos.zip', 'r', false, $contexto); //consigo usar contexto no fopen também
+//fopen('arquivos.zip', 'r', false, $contexto); //consigo usar contexto no fopen também

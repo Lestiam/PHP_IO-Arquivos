@@ -5,7 +5,7 @@ $arquivoCursos = new SplFileObject('cursos.csv'); //um objeto de arquivo
 while (!$arquivoCursos->eof()) { //enquanto eu nao chegar ao fim do arquivo (end of file)...
     $linha  = $arquivoCursos->fgetcsv(';'); //eu leio uma linha em csv
 
-    echo $linha[0] . PHP_EOL; //aqui eu imprimo só a primeira coluna
+    echo mb_convert_encoding($linha[0], "UTF-8", "Windows-1252") . PHP_EOL; //aqui eu imprimo só a primeira coluna, colocando no formato da tabela utf8 (tabelas de strings, são varias, pesquise sobre UNICODE)
 }
 
 $date = new DateTime();
